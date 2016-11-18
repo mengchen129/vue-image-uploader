@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.progress-bar-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-title {
+  color: white;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 80%;
+}
+
+.progress-bar-passed {
+  background-color: lightgreen;
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease-in-out;
+}
